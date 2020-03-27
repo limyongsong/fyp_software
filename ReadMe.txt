@@ -1,9 +1,9 @@
-Make sure the following files/folders are present on the main folder (LabVIEW 2019 should also be installed, Python 3.6.9 should be installed):
+Make sure the following files/folders are present on the main folder (LabVIEW 2019 should also be installed, Python 3.6.0 should be installed):
 /dependencies/
 /images/
 AverageBird.csv
 
-When opening Overal_system_A.vi:
+When opening Overal_system.vi:
 1). Select the correct Weight VISA resource name (typically com9)
 2). Select the correct Camera Name (typically cam0)
 For weight detection settings:
@@ -12,10 +12,6 @@ For weight detection settings:
 
 A0-X is weight first for start condition
 A1-X is RFID first for start condition
-
-
-save_data.py is used to create folder and files to store data 
--should called the main() function in labview (it should have 3 inputs) (rfid, weight, imageID)
 
 -----
 Note: 
@@ -27,7 +23,6 @@ To get the correct version: https://forums.ni.com/t5/LabVIEW/Labview-2018-Python
 Remember to tick set path during installation
 Check 'python' and 'pip' at command prompt
 -make sure it is 3.6.0
-1b(not always needed)).download pip from and follow instructions https://www.liquidweb.com/kb/install-pip-windows/ if not installed
 2).Install all the relevant libraries using pip install
 e.g
 "type "pip install numpy", "pip install pandas" and the other libraries that you want. 
