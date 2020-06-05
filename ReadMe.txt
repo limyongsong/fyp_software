@@ -1,3 +1,7 @@
+Refer to Report.pdf for details of the project
+
+-------------------------------------------------------------------------------------------------------------------------------
+Setup:
 Make sure the following files/folders are present on the main folder (LabVIEW 2019 should also be installed, Python 3.6.0 should be installed):
 /dependencies/
 /images/
